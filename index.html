@@ -9,15 +9,20 @@
 <body>
     <main>
         <div class="container">
-          <div class="dados">
+          <form class="dados" id="form-1">
             <h1>
               Login
             </h1>
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Senha">
-            <button>Entrar</button>
-          </div>
+            <input type="email" autocomplete="current-email" id="email-log" placeholder="Email" >
+            <input type="password" autocomplete="current-password" id="senha-log" placeholder="Senha" >
+            <samp class="erro" id="erro1"></samp>
+            <button type="submit" class="sub" id="entrar">Entrar</button>
+            <nav>
+              <a href="./cadastro.html">Criar Conta</a>
+            </nav>
+          </form>
         </div>
     </main>
+    <script src="./Assets/js/Entrar.js"></script>
 </body>
 </html>
