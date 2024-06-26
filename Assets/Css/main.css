@@ -1,20 +1,54 @@
 .container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .dados{
-    background: #ffffff66;
-    width: 230px;
-    padding: 80px;
-    border-radius: 15px;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
-    gap: 30px;
-  }
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dados{
+  background: #ffffff66;
+  width: 230px;
+  padding: 80px;
+  border-radius: 15px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  gap: 30px;
+}
+h1{
+  font-size: 40px;
+}
+input{ 
+  background-color: #ffffff00;
+  padding: 15px;
+  border: 2px solid #3d3d3d;
+  border-radius: 10px;
+  outline: none;
+  color: #3d3d3d;
+  font-size: 15px;
+}
+input::placeholder{
+  color: rgb(61, 61, 61);
+}
+.erro{
+  display: none;
+  color: #ec0000;
+}
+.erro.most{
+  display: block;
+}
+.sub{
+  background-color: #1e90ff;
+  border: none;
+  padding: 15px;
+  width: 90%;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.sub:hover{
+  background-color: #00bfff;
+  cursor: pointer;
+}
